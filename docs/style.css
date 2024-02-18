@@ -1,0 +1,211 @@
+/* @import url('https://fonts.googleapis.com/css?family=Cookie'); */
+
+
+:root{
+
+}
+
+
+@font-face {
+
+  /* font-family: CaskaydiaMonoNerdFontMono; */
+  /* src: url('fonts/CascadiaMono/CaskaydiaMonoNerdFontMono-Regular.ttf') format('truetype'); */
+
+  font-family: FiraMono;
+  src: url('fonts/FiraMono/FiraMonoNerdFontMono-Regular.otf') format('opentype');
+
+  /* font-family: ShureTechMono; */
+  /* src: url('fonts/ShareTechMono/ShureTechMonoNerdFontMono-Regular.ttf') format('truetype'); */
+
+  /* src: url('fonts/EntezareZohoor2.eot?') format('☺'), */
+       /* url('fonts/EntezareZohoor2.woff') format('woff'), */
+       /* url('fonts/EntezareZohoor2.ttf') format('truetype'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: 'FiraMono';
+  /* font-family: 'ShureTechMono'; */
+  font-weight: bold;
+
+}
+
+
+body{
+  background-color: #000;
+  padding: 1rem;
+
+  overflow-wrap: normal;
+  overflow-wrap: break-word;
+
+  min-height: 100vh;
+}
+
+.emptyline{
+  height: 1rem;
+  width: 100%;
+}
+
+char{
+  /* //nothing */
+}
+
+/* fire Gradient */
+
+.char-start{
+  /* animation: firegradient 5s ease-out forwards; */
+  /* animation: icegradient 5s ease-out forwards; */
+  /* animation: limegreengradient 5s ease-out forwards; */
+  animation: roygbivgradient 5s ease-out forwards;
+}
+
+.end-animation{
+  /* animation: firegradient 1s ease-out forwards; */
+  /* animation: icegradient 1s ease-out forwards; */
+  /* animation: limegreengradient 1s ease-out forwards; */
+  animation: roygbivgradient 1s ease-out forwards;
+}
+
+@keyframes firegradient {
+  0%{
+    color:#000000;
+    text-shadow: none;
+    filter: blur(5px);
+  };
+  10%{
+    color: #ff0000;
+    text-shadow: 0 0 1rem #ff0000;
+  }
+
+  50%{
+    color: #ff0000;
+    text-shadow: 0 0 1rem #ff0000;
+  }
+
+  70%{
+    color: #ffd700;
+    text-shadow: 0 0 1rem #ffd700;
+    
+  }
+
+  100%{
+    color:#c0c0c0;
+    text-shadow: 0 0 0.1rem #c0c0c0;
+    filter: blur(0px);
+  }
+} 
+
+/* Ice Gradient */
+
+@keyframes icegradient {
+
+  0%{
+    color: #00bfff;
+    text-shadow: 0 0 5rem #00bfff;
+  }
+
+  50%{
+    color: #00bfff;
+    text-shadow: 0 0 5rem #00bfff;
+  }
+
+
+  75%{
+    color: #e0ffff;
+    text-shadow: 0 0 2rem #e0ffff;
+    
+  }
+
+  100%{
+    color:#ffffff;
+    text-shadow: 0 0 0.1rem #79cbff;
+    /* filter: blur(0.0rem); */
+  }
+} 
+
+/* limegreengradient Gradient */
+@keyframes limegreengradient {
+
+  /* 0%{
+    color: #000000;
+    text-shadow: 0 0 5rem #000000;
+  } */
+
+  0%{
+    color: #00ff04;
+    text-shadow: 0 0 5rem #00ff04;
+  }
+
+  50%{
+    color: #00ff04;
+    text-shadow: 0 0 5rem #00ff04;
+  }
+
+  100%{
+    color:#ffffff;
+    text-shadow: 0 0 0.1rem #79cbff;
+    /* filter: blur(0.0rem); */
+  }
+} 
+
+/* ROYGBIV Gradient */
+
+@keyframes roygbivgradient {
+  0%{
+    color: #D50000;
+    text-shadow: 0 0 1rem #D50000;
+  }
+
+  20%{
+    color: #FF6D00;
+    text-shadow: 0 0 1rem #FF6D00;
+  }
+
+  30%{
+    color: #FFFF00;
+    text-shadow: 0 0 1rem #FFFF00;
+  }
+
+  40%{
+    color: #76FF03;
+    text-shadow: 0 0 1rem #76FF03;
+  }
+
+  50%{
+    color: #01579B;
+    text-shadow: 0 0 1rem #01579B;
+  }
+
+  60%{
+    color: #1A237E;
+    text-shadow: 0 0 1rem #1A237E;
+  }
+
+
+  70%{
+    color: #4A148C;
+    text-shadow: 0 0 1rem #4A148C;
+    
+  }
+
+  100%{
+    color:#ffffff;
+    text-shadow: 0 0 0.1rem #79cbff;
+    /* filter: blur(0.0rem); */
+  }
+} 
+
+
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+
+
