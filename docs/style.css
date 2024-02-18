@@ -55,17 +55,17 @@ char{
 /* fire Gradient */
 
 .char-start{
-  /* animation: firegradient 5s ease-out forwards; */
+  animation: firegradient 5s ease-out forwards;
   /* animation: icegradient 5s ease-out forwards; */
   /* animation: limegreengradient 5s ease-out forwards; */
-  animation: roygbivgradient 5s ease-out forwards;
+  /* animation: roygbivgradient 5s ease-out forwards; */
 }
 
 .end-animation{
-  /* animation: firegradient 1s ease-out forwards; */
+  animation: firegradient 1s ease-out forwards;
   /* animation: icegradient 1s ease-out forwards; */
   /* animation: limegreengradient 1s ease-out forwards; */
-  animation: roygbivgradient 1s ease-out forwards;
+  /* animation: roygbivgradient 1s ease-out forwards; */
 }
 
 @keyframes firegradient {
